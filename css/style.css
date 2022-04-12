@@ -1,0 +1,62 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+h1{
+    text-align: center;
+    font-family: impact;
+    margin: 10px;
+   
+}
+canvas{
+    box-shadow: 5px 5px 6px rgba(0,0,0,0.2);
+    position: relative;
+    left:30%;
+    z-index: 2;
+}
+.dragon{
+    background-size: cover;
+    background-position: center center;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    display: none;
+}
+#dragon1{
+    background-image: url("../images/dragon1.gif");
+    top:15%;
+    left:65%
+
+}
+#dragon2{
+    background-image: url("../images/dragon2.gif");
+    transform: rotateY(180deg);
+    top:15%;
+    left:8%
+
+}
+/*.newgame{
+    width: 200px;
+    height: 80px;
+    border: 2px solid black;
+    position: absolute;
+    top:70%;
+    left:44%;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(66, 207, 66);
+    box-shadow: 5px 5px 8px rgb(116, 136, 116);
+    display: none;
+}
+.newgame:hover{
+    background-color: rgb(20, 136, 18);
+    box-shadow: 5px 5px 8px rgb(94, 142, 170);
+
+}
+#refresh{
+    line-height: 60px;
+}
+*/
